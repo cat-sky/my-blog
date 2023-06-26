@@ -3,6 +3,7 @@ import LoginPage from "./login";
 function IndexRouter(){
     return <Routes>
         <Route path="/login" element={<LoginPage/>}/>
+        <Route path="/" element={'j'}/>
     </Routes>
 }
 
